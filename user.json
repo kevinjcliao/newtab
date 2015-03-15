@@ -1,6 +1,7 @@
 {
-	"locale" : "zh-TW",
-	"name" : "Kevin",
-	"location" : "Haverford, PA",
-	"temperatureType" : 0
+	"locale" : "en",
+	"name" : "Your Name",
+	"location" : "Helsinki",
+	"temperatureType" : 0,
+	"dateformat" : "dddd DD.MM.YYYY"
 }

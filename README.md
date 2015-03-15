@@ -9,11 +9,26 @@ At the time being this works by referencing the site from filesystem or you may 
 https://addons.mozilla.org/en/firefox/addon/custom-new-tab/
 
 #Customization
-Basic level customization is available by modifying the user.json, temperatureType 0 : Celcius 1 : Fahrenheit, location is the name of the city you want forecast for and locale is for localizing the datetime.
+Basic level customization is available by modifying the user.json;
+```javascript
+{
+	"locale" : "en",
+	"name" : "Your Name",
+	"location" : "Helsinki",
+	"temperatureType" : 0,
+	"dateformat" : "dddd DD.MM.YYYY"
+}
+```
+* location is the name of the city you want forecast
+* locale is for localizing the datetime.
+* temperatureType
+   * 0 : Celsius 
+   * 1 : Fahrenheit
+* dateformat, see [moment.js docs](http://momentjs.com/docs/#/displaying/) for help
 
 #Features/Tech
 Daily changing background, quote and a forecast (openweathermap.org/api), data is cached to html5 localStorage and expires daily/hourly (forecast).
-There is no setup so feel free to tweak around to make it suitable for your needs. The "app" is powered by [AngularJs](https://angularjs.org/), [RequireJs](http://requirejs.org/) and [moment.js](http://momentjs.com/) (datetime localization).
+There is no setup so feel free to tweak around to make it suitable for your needs. The "app" is powered by [AngularJs](https://angularjs.org/), [RequireJs](http://requirejs.org/) and [moment.js](http://momentjs.com/) (datetime localization). If you grow tired of the cached image double clicking the background changes it to a new one.
 
 #Screenshots
 ![1](http://i.imgur.com/BvVhERO.jpg "Screenshot 1")
