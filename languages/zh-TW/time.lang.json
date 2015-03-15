@@ -6,5 +6,6 @@
 	"night" : "晚上",
 	"good" : "好",
 	"today" : "今天",
-	"is" : "是"
+	"is" : "是", 
+	"greeting" : "{daystate}好，{name}。今天是{date}"
 }
