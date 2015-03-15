@@ -24,7 +24,8 @@ define(['angularAMD', 'angular-route', 'angular-cookies', 'angular-sanitize', 'a
     })
     .value('localeSupported', [
         'en-US',
-        'fi-FI'
+        'fi-FI',
+				'zh-TW'
     ])
     .value('localeFallbacks', {
         'en': 'en-US',
